@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-08-17T21:20:08+00:00",
+  "scope": "full",
+  "device": {
+    "generated_at": "2026-08-17T21:20:09+00:00",
+    "board": "ESP32-C3 SuperMini",
+    "board_id": "esp32-c3-supermini",
+    "chip": "esp32c3",
+    "device_id": "70af092aa0c8",
+    "memory_profile": {
+      "psram_mb": 0,
+      "flash_mb": 4,
+      "psram_mode": "none"
+    }
+  },
+  "skipped": [
+    {
+      "path": "/config.json",
+      "reason": "device secret/binary policy"
+    }
+  ],
+  "security_note": "Secret Scrubber runs before cloud publication. Dependencies/VCS metadata, local databases/logs and credential files are excluded; built frontend and firmware binaries are included when present."
+}

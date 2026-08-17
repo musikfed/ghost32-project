@@ -1,0 +1,5 @@
+# Known-good Wi-Fi/network baseline from ESP32 MultiBoard Studio 2.3.2
+# Проверенный Wi-Fi/network baseline из ESP32 MultiBoard Studio 2.3.2
+
+e71bc07e1f736e3384a79bf85ee1698633a6d7efa20b7e5be6e099c5ca4baf33  device/server.py
+9bcce0059cc4a57cd0e0c727ab6d7ac393b287c5b0b31923ea37c43532a0dbea  host/device_client.py

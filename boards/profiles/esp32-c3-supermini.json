@@ -1,0 +1,176 @@
+{
+  "id": "esp32-c3-supermini",
+  "name": "ESP32-C3 SuperMini",
+  "chip": "esp32c3",
+  "family": "ESP32-C3",
+  "verified": true,
+  "description": "Compact ESP32-C3 SuperMini profile from Studio 2.0. GPIO0..10, 20, 21.",
+  "memory": {
+    "flash_mb": 4,
+    "psram_mb": 0,
+    "psram_mode": "none"
+  },
+  "firmware_id": "esp32c3-v1.28.0",
+  "pins": [
+    {
+      "gpio": 0,
+      "label": "GPIO0",
+      "adc": true,
+      "pwm": true,
+      "output": true,
+      "available": true,
+      "risk": "",
+      "danger": false,
+      "note": "",
+      "aliases": []
+    },
+    {
+      "gpio": 1,
+      "label": "GPIO1",
+      "adc": true,
+      "pwm": true,
+      "output": true,
+      "available": true,
+      "risk": "",
+      "danger": false,
+      "note": "",
+      "aliases": []
+    },
+    {
+      "gpio": 2,
+      "label": "GPIO2",
+      "adc": true,
+      "pwm": true,
+      "output": true,
+      "available": true,
+      "risk": "strapping",
+      "danger": true,
+      "note": "ESP32-C3 strapping pin. External levels can affect boot.",
+      "aliases": []
+    },
+    {
+      "gpio": 3,
+      "label": "GPIO3",
+      "adc": true,
+      "pwm": true,
+      "output": true,
+      "available": true,
+      "risk": "",
+      "danger": false,
+      "note": "",
+      "aliases": []
+    },
+    {
+      "gpio": 4,
+      "label": "GPIO4",
+      "adc": true,
+      "pwm": true,
+      "output": true,
+      "available": true,
+      "risk": "",
+      "danger": false,
+      "note": "",
+      "aliases": []
+    },
+    {
+      "gpio": 5,
+      "label": "GPIO5",
+      "adc": true,
+      "pwm": true,
+      "output": true,
+      "available": true,
+      "risk": "adc2",
+      "danger": false,
+      "note": "ADC2 channel; Wi-Fi/ADC limitations may apply depending on firmware.",
+      "aliases": []
+    },
+    {
+      "gpio": 6,
+      "label": "GPIO6",
+      "adc": false,
+      "pwm": true,
+      "output": true,
+      "available": true,
+      "risk": "",
+      "danger": false,
+      "note": "",
+      "aliases": []
+    },
+    {
+      "gpio": 7,
+      "label": "GPIO7",
+      "adc": false,
+      "pwm": true,
+      "output": true,
+      "available": true,
+      "risk": "",
+      "danger": false,
+      "note": "",
+      "aliases": []
+    },
+    {
+      "gpio": 8,
+      "label": "GPIO8",
+      "adc": false,
+      "pwm": true,
+      "output": true,
+      "available": true,
+      "risk": "strapping-led",
+      "danger": true,
+      "note": "Common SuperMini onboard LED plus strapping function.",
+      "aliases": []
+    },
+    {
+      "gpio": 9,
+      "label": "GPIO9",
+      "adc": false,
+      "pwm": true,
+      "output": true,
+      "available": true,
+      "risk": "strapping-boot",
+      "danger": true,
+      "note": "Common SuperMini BOOT button plus strapping function.",
+      "aliases": []
+    },
+    {
+      "gpio": 10,
+      "label": "GPIO10",
+      "adc": false,
+      "pwm": true,
+      "output": true,
+      "available": true,
+      "risk": "",
+      "danger": false,
+      "note": "",
+      "aliases": []
+    },
+    {
+      "gpio": 20,
+      "label": "GPIO20",
+      "adc": false,
+      "pwm": true,
+      "output": true,
+      "available": true,
+      "risk": "uart-rx",
+      "danger": false,
+      "note": "Common UART RX function.",
+      "aliases": []
+    },
+    {
+      "gpio": 21,
+      "label": "GPIO21",
+      "adc": false,
+      "pwm": true,
+      "output": true,
+      "available": true,
+      "risk": "uart-tx",
+      "danger": false,
+      "note": "Common UART TX function.",
+      "aliases": []
+    }
+  ],
+  "notes": [
+    "GPIO2, GPIO8 and GPIO9 are boot strapping pins.",
+    "Board clones may route LEDs/buttons differently; verify silkscreen."
+  ]
+}

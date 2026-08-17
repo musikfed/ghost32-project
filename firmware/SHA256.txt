@@ -1,0 +1,1 @@
+c749c22b6fe00cb8211a3b227ed6c0ce9babb518fd8f5a661f7496eb878fa895  MicroPython_ESP32_GENERIC_C3_v1.28.0.bin

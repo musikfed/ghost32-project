@@ -1,0 +1,37 @@
+# Dependencies / virtual environments
+.venv/
+node_modules/
+frontend/node_modules/
+
+# Python caches / local test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local Studio state / logs / databases
+.studio-state.json
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.bak
+.studio-tmp-*/
+
+# Secrets / credentials
+.env
+.env.*
+device/config.json
+**/credentials.json
+**/secrets.json
+*.key
+*.pem
+*.p12
+*.pfx
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

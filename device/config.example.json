@@ -1,0 +1,18 @@
+{
+  "ssid": "YOUR_WIFI",
+  "password": "YOUR_WIFI_PASSWORD",
+  "api_token": "CHANGE_ME_LONG_RANDOM_TOKEN",
+  "ap_ssid_prefix": "ESP32Studio-Setup",
+  "ap_password": "esp32studio",
+  "board": {
+    "id": "esp32-s3-devkitc1-n16r8",
+    "name": "ESP32-S3-DevKitC-1 N16R8",
+    "chip": "esp32s3",
+    "memory": {
+      "flash_mb": 16,
+      "psram_mb": 8,
+      "psram_mode": "octal"
+    },
+    "pins": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "esp32c3-v1.28.0": {
+    "id": "esp32c3-v1.28.0",
+    "chip": "esp32c3",
+    "variant": "standard",
+    "version": "1.28.0",
+    "date": "2026-04-06",
+    "filename": "MicroPython_ESP32_GENERIC_C3_v1.28.0.bin",
+    "url": "https://micropython.org/resources/firmware/ESP32_GENERIC_C3-20260406-v1.28.0.bin"
+  },
+  "esp32s3-standard-v1.28.0": {
+    "id": "esp32s3-standard-v1.28.0",
+    "chip": "esp32s3",
+    "variant": "standard",
+    "version": "1.28.0",
+    "date": "2026-04-06",
+    "filename": "MicroPython_ESP32_GENERIC_S3_v1.28.0.bin",
+    "url": "https://micropython.org/resources/firmware/ESP32_GENERIC_S3-20260406-v1.28.0.bin"
+  },
+  "esp32s3-spiram-oct-v1.28.0": {
+    "id": "esp32s3-spiram-oct-v1.28.0",
+    "chip": "esp32s3",
+    "variant": "spiram-oct",
+    "version": "1.28.0",
+    "date": "2026-04-06",
+    "filename": "MicroPython_ESP32_GENERIC_S3_SPIRAM_OCT_v1.28.0.bin",
+    "url": "https://micropython.org/resources/firmware/ESP32_GENERIC_S3-SPIRAM_OCT-20260406-v1.28.0.bin"
+  }
+}
